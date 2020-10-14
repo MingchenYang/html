@@ -1,0 +1,137 @@
+body {
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    color: white;
+    background-image: url(images/lake&sunset.jpg);
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+}
+
+header .mobile {
+    display: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    color: black;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+li:hover {
+    background: grey;
+}
+
+.logo:hover {
+    background: none;
+}
+
+.logo a {
+    background-image: url("images/logo.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    text-indent: -999999999px;
+    top: -15px;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 450px) {
+    header {
+        height: 150px;
+    }
+
+    header .mobile {
+        display: inline-block;
+    }
+
+    header .desktop{
+        display: none;
+    }
+}
+
+/* CAMREA BRAND */
+.camera.brand {
+    background: rgb(219, 210, 210);
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.camera.brand div {
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.camera.brand div:hover {
+    background: white;
+}
+
+.camera.brand a {
+    color: black;
+    text-decoration: none;
+}
+
+.camera.brand a:hover {
+    text-decoration: underline;
+}
+
+/* FEATURES */
+.features {
+    background: white;
+    color: black;
+    padding: 20px;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.features figure {
+    margin: auto;
+    text-align: center;
+}
+
+.features figure img {
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: black 0 0 10px;
+}
+
+/* FOOTER */
+footer {
+    color: gray;
+    background: black;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 20px;
+}
