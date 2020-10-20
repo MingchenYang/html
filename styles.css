@@ -8,7 +8,7 @@ body {
 /* HEADER */
 header {
     color: white;
-    background-image: url(images/lake&sunset.jpg);
+    background-image: url(images/eosr6.jpg);
     background-size: 100%;
     background-position: center;
     padding: 20px;
@@ -26,8 +26,8 @@ ul {
 }
 
 li {
-    color: black;
     display: inline-block;
+    color: black;
     margin-right: 20px;
     border-radius: 3px;
     padding: 2px;
@@ -78,7 +78,7 @@ li:hover {
 }
 
 /* CAMREA BRAND */
-.camera.brand {
+.camera-brand {
     background: rgb(219, 210, 210);
     padding: 10px;
     margin: 0;
@@ -86,23 +86,22 @@ li:hover {
     flex-direction: row;
 }
 
-.camera.brand div {
+.camera-brand div {
     margin: auto;
-    text-align: center;
     padding: 2px;
     border-radius: 3px;
 }
 
-.camera.brand div:hover {
+.camera-brand div:hover {
     background: white;
 }
 
-.camera.brand a {
+.camera-brand a {
     color: black;
     text-decoration: none;
 }
 
-.camera.brand a:hover {
+.camera-brand a:hover {
     text-decoration: underline;
 }
 
@@ -125,6 +124,52 @@ li:hover {
     border: 1px solid grey;
     border-radius: 20px;
     box-shadow: black 0 0 10px;
+}
+
+/* SEARCH */
+.search p {
+    margin-left: 20px;
+}
+
+/* CAMERA */
+.camera-name {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(219, 210, 210);
+    padding: 10px;
+}
+
+.camera-name div {
+    margin: auto;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.camera-name div:hover {
+    background-color: white;
+}
+
+.camera-name div a {
+    color: black;
+    text-decoration: none;
+}
+
+.camera-name div a:hover{
+    text-decoration: underline;
+}
+
+.camera-pic figure {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    margin: auto;
 }
 
 /* FOOTER */
